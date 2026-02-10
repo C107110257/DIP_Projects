@@ -124,7 +124,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Course_Lib\myHist.cpp" />
     <ClCompile Include="DIP.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Course_Lib\myHist.h" />
+    <ClInclude Include="resource.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="DIP.rc" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
