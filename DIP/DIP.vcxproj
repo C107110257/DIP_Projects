@@ -124,7 +124,16 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Course_Lib\myHist.cpp" />
     <ClCompile Include="DIP.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Course_Lib\myHist.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="images\dpi_hw04.bmp" />
+    <Image Include="images\lena.bmp" />
+    <Image Include="images\license_plate.bmp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
